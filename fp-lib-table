@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name RF_Modules)(type KiCad)(uri /home/sebastian/projects/kicad/libs/RF_Modules.pretty)(options "")(descr ""))
+)

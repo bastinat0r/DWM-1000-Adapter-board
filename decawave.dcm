@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DWM1000
+D DWM1000 Module for Decawave
+K Decawave DWM1000
+$ENDCMP
+#
+#End Doc Library
