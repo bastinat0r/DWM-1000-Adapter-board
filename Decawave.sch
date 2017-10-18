@@ -61,17 +61,6 @@ F 3 "" H 4850 2550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP1
-U 1 1 59DF5453
-P 1150 1050
-F 0 "JP1" H 1150 1130 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 1160 990 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 1150 1050 50  0001 C CNN
-F 3 "" H 1150 1050 50  0001 C CNN
-	1    1150 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper_NO_Small JP3
 U 1 1 59DF55B4
 P 1900 1050
@@ -141,17 +130,6 @@ SPIPHA
 Text Label 1450 1050 0    60   ~ 0
 SPIPOL
 $Comp
-L GND #PWR1
-U 1 1 59DF61DF
-P 650 1050
-F 0 "#PWR1" H 650 800 50  0001 C CNN
-F 1 "GND" H 650 900 50  0000 C CNN
-F 2 "" H 650 1050 50  0001 C CNN
-F 3 "" H 650 1050 50  0001 C CNN
-	1    650  1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3.3V #PWR12
 U 1 1 59DF61FF
 P 2500 1050
@@ -163,17 +141,6 @@ F 3 "" H 2500 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP2
-U 1 1 59DF6311
-P 1150 1400
-F 0 "JP2" H 1150 1480 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 1160 1340 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 1150 1400 50  0001 C CNN
-F 3 "" H 1150 1400 50  0001 C CNN
-	1    1150 1400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Jumper_NO_Small JP4
 U 1 1 59DF6317
 P 1900 1400
@@ -182,17 +149,6 @@ F 1 "Jumper_NO_Small" H 1910 1340 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" H 1900 1400 50  0001 C CNN
 F 3 "" H 1900 1400 50  0001 C CNN
 	1    1900 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR2
-U 1 1 59DF6321
-P 650 1400
-F 0 "#PWR2" H 650 1150 50  0001 C CNN
-F 1 "GND" H 650 1250 50  0000 C CNN
-F 2 "" H 650 1400 50  0001 C CNN
-F 3 "" H 650 1400 50  0001 C CNN
-	1    650  1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -503,15 +459,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 2350 4450 2700
 Wire Wire Line
-	1250 1050 1800 1050
-Wire Wire Line
-	1050 1050 650  1050
-Wire Wire Line
 	2000 1050 2500 1050
-Wire Wire Line
-	1250 1400 1800 1400
-Wire Wire Line
-	1050 1400 650  1400
 Wire Wire Line
 	2000 1400 2500 1400
 Wire Wire Line
@@ -1906,4 +1854,8 @@ Wire Notes Line
 	8100 5050 550  5050
 Text Notes 600  5000 0    60   ~ 0
 STM32L443CCTx
+Wire Wire Line
+	1800 1050 1450 1050
+Wire Wire Line
+	1800 1400 1450 1400
 $EndSCHEMATC
